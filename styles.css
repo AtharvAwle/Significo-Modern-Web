@@ -1,0 +1,37 @@
+*::selection{
+    background-color: rgb(236, 166, 158);
+}
+body[theme = "black"]{
+    background-color: black;
+}
+
+body[theme="black"] .section{
+    color: white ;
+}
+
+body[theme = "salmon"]{
+    background-color: salmon;
+}
+
+body[theme = "salmon"] .section{
+    color: rgb(57, 23, 19);
+}
+
+
+body[theme = "white"]{
+    background-color: white;
+}
+
+body[theme = "white"] .section{
+    color: rgb(0, 0, 0);
+}
+
+
+body[theme = "cyan"]{
+    background-color: cadetblue;
+}
+
+body[theme = "cyan"] .section{
+    color: rgb(17, 55, 57);
+}
+
